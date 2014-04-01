@@ -1,4 +1,4 @@
 #!/bin/bash
 ./apparatus-http-proxy &
-export HTTP_PROXY=127.0.0.1:4100
-export HTTPS_PROXY=127.0.0.1:4100
+export HTTP_PROXY=http://127.0.0.1:4100
+export HTTPS_PROXY=http://127.0.0.1:4100
